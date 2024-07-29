@@ -7,6 +7,7 @@ import "../assets/fonts/Lato/Lato-Regular.ttf"
 import "../assets/fonts/Lato/Lato-Black.ttf"
 import "../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf"
 
+// test
 
 
 const About = () => {
@@ -38,7 +39,7 @@ const About = () => {
             {/* Navbar */}
             <header className={`fixed z-50 inset-0 w-screen h-[10%] transition-all duration-300 ${scrolled ? 'backdrop-blur-3xl' : ''}`}>
                             
-                <div className="relative h-full flex justify-between items-center p-4 dp:px-0 lp:px-0 tb:px-0 mb:px-8">
+                <div className="relative flex items-center justify-between h-full p-4 dp:px-0 lp:px-0 tb:px-0 mb:px-8">
                     <NavMenu />
                 </div>
 
@@ -63,8 +64,7 @@ const About = () => {
 
 
                 {/* Section 2 */}
-                <section className='w-full h-full mt-14
-                                        dp:px-14 lp:px-14 tb:px-14 mb:px-6'>
+                <section className='w-full h-full mt-14 dp:px-14 lp:px-14 tb:px-14 mb:px-6'>
 
                     <div className='dp:flex lp:flex tb:block mb:block mx-auto gap-14 items-start
                                     dp:w-auto lp:w-auto tb:w-[80%] mb:w-auto
@@ -135,15 +135,9 @@ const About = () => {
 
 
             {/* Footer */}
-            <footer className='w-full h-full mt-14 mx-auto py-20 flex items-center
-                                    dp:flex-row lp:flex-row tb:flex-col mb:flex-col
-                                    dp:justify-between lp:justify-between tb:justify-center mb:justify-center
-                                    dp:px-24 lp:px-24 tb:px-24 mb:px-6'>
+            <footer className='flex items-center w-full h-full py-20 mx-auto mt-14 dp:flex-row lp:flex-row tb:flex-col mb:flex-col dp:justify-between lp:justify-between tb:justify-center mb:justify-center dp:px-24 lp:px-24 tb:px-24 mb:px-6'>
                     
-                    <div className='flex gap-x-8 text-white uk-link-reset
-                                    dp:order-2 lp:order-2 tb:order-none mb:order-none
-                                    dp:py-0 lp:py-0 tb:py-8 mb:py-8
-                                    dp:mx-0 lp:mx-0 tb:mx-auto mb:mx-auto'>
+                    <div className='flex text-white gap-x-8 uk-link-reset dp:order-2 lp:order-2 tb:order-none mb:order-none dp:py-0 lp:py-0 tb:py-8 mb:py-8 dp:mx-0 lp:mx-0 tb:mx-auto mb:mx-auto'>
 
                         <a href="https://www.instagram.com/mcbersatu/" uk-icon="icon: instagram; ratio: 1.5"></a>
                         <a href="https://www.tiktok.com/@mcbersatuid" uk-icon="icon: tiktok; ratio: 1.5"></a>
@@ -151,7 +145,7 @@ const About = () => {
 
                     </div>
 
-                    <p style={{ fontFamily: 'LatoRegular, sans-serif' }} className="text-white text-center font-extralight text-xs">Proudly presented by &copy; Minecrafter Bersatu.</p>
+                    <p style={{ fontFamily: 'LatoRegular, sans-serif' }} className="text-xs text-center text-white font-extralight">Proudly presented by &copy; Minecrafter Bersatu.</p>
 
             </footer>
 

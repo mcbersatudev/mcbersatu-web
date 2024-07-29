@@ -10,7 +10,7 @@ import "../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf"
 
 
 const About = () => {
- 
+    
     //fungsi efek navbar
     const [scrolled, setScrolled] = useState(false);
 

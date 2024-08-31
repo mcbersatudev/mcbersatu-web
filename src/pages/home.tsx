@@ -43,8 +43,8 @@ const Home = () => {
 
     //fungsi tombol link gform
     const handleClick = () => {
-        window.open('https://youtube.com/live/efN5g1wQBsg?feature=share', '_blank'); //pasang link gform
-        // alert('Perlombaan sedang berlangsung')
+        //window.open('', '_blank'); pasang link gform
+        alert('Acaranya sudah selesai :)')
       };
 
     
@@ -82,17 +82,22 @@ const Home = () => {
                                 Vol. 2
                             </p>
 
-                            <h4 className='lato-regular text-white mt-10 text-3xl mx-auto text-center
+                            {/* <h4 className='lato-regular text-white mt-10 text-3xl mx-auto text-center
                                             dp:w-[70%] lp:w-[60%] tb:w-[80%] mb:w-[90%]'>
                                 IKUTI PERLOMBAAN MINECRAFT TERBESAR DALAM MERAYAKAN HUT KE 79 TAHUN RI !    
+                            </h4> */}
+
+                            <h4 className='lato-regular text-white mt-10 text-3xl mx-auto text-center
+                                            dp:w-[70%] lp:w-[60%] tb:w-[80%] mb:w-[90%]'>
+                                SAMPAI JUMPA DI VOLUME 3, 2025!    
                             </h4>
 
-                            <button className='minecraft-five text-[#ED1C24] text-center font-normal text-xl tracking-wider p-2 h-12 dp:w-[30%] lp:w-[35%] tb:w-[50%] mb:w-[80%] bg-white rounded-[30px] 
+                            <button className='minecraft-five text-[#ED1C24] text-center font-normal text-xl p-2 h-12 dp:w-[40%] lp:w-[70%] tb:w-[50%] mb:w-[80%] bg-white rounded-[30px] 
                                             mx-auto block hover:bg-transparent hover:border-white hover:border hover:text-white focus:opacity-40 
                                            mt-10 shrink transition-all duration-300' 
                                     onClick={handleClick}
                             >
-                                Saksikan Sekarang
+                                Telah Berakhir
                             </button>
 
                         </div>
@@ -298,7 +303,7 @@ const Home = () => {
                             <a style={{ fontFamily: 'LatoRegular, sans-serif' }} className='mx-auto block text-white text-center text-sm hover:text-red-300 focus:opacity-40' 
                             title='Vol.1' href="https://www.youtube.com/live/2fII-MVkp14?si=ZaSxMJBqJ3ApCI0z">[2023]</a>
                             <a style={{ fontFamily: 'LatoRegular, sans-serif' }} className='mx-auto block text-white text-center text-sm hover:text-red-300 focus:opacity-40' 
-                            title='Vol.2: Belum tersedia' >[2024]</a>
+                            title='Vol.2' href="https://www.youtube.com/live/efN5g1wQBsg?feature=share">[2024]</a>
                             <a style={{ fontFamily: 'LatoRegular, sans-serif' }} className='mx-auto block text-white text-center text-sm hover:text-red-300 focus:opacity-40' 
                             title='Vol.3: Akan datang' >[2025]</a>
                         </div>

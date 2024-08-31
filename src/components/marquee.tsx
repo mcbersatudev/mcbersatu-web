@@ -12,11 +12,11 @@ const images: Image[] = [
   { src: 'logos/community/mcsejati.png', link: 'https://mcsejati.site/', tooltip: 'Minecraft Sejati' },
   { src: 'logos/community/mci.png', link: 'https://discord.gg/minecraft-community-indonesia-728905506206384128', tooltip: 'Minecraft Community Indonesia' },
   { src: 'logos/community/sahabatmc.png', link: 'https://sahabatmcid.my.id/', tooltip: 'Sahabat Minecrafter' },
-  { src: 'logos/community/chronoscraft.png', link: 'https://discord.com/invite/yRYrkwRm7d', tooltip: 'Chronoscraft Community' },
+  // { src: 'logos/community/chronoscraft.png', link: 'https://discord.com/invite/yRYrkwRm7d', tooltip: 'Chronoscraft Community' },
   { src: 'logos/community/motionimemc.png', link: 'http://discord.gg/motionime', tooltip: 'MotionIme Minecraft' },
   { src: 'logos/community/zanmcteam.png', link: 'https://discord.gg/XVKDBsSFFS', tooltip: 'ZanMcTeam' },
   { src: 'logos/community/bhycero.png', link: 'https://bfdmcommunity.netlify.app/', tooltip: 'Bhycero Group' },
-  { src: 'logos/community/haven.png', link: 'https://discord.gg/hav3n', tooltip: 'Haven' },
+  //{ src: 'logos/community/haven.png', link: 'https://discord.gg/hav3n', tooltip: 'Haven' },
   { src: 'logos/community/mchubid.png', link: 'https://mchub.id/', tooltip: 'MCHub Indonesia' },
 ];
 

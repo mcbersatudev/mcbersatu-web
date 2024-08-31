@@ -178,7 +178,7 @@ const Home = () => {
                                         mt-14 transition-all duration-300'
                                 onClick={handleClick}
                         >
-                            Saksikan Sekarang
+                            Ikuti acara
                         </button>
                         <a className='lato-regular mx-auto block text-white text-center text-xs hover:text-red-300 focus:opacity-40' href="/about">Pelajari selengkapnya</a>
 

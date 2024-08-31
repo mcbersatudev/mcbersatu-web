@@ -160,10 +160,10 @@
 /* Marquee effect style */
 @keyframes marquee {
   0% {
-    transform: translateX(-20%);
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(-143%);
+    transform: translateX(-99%);
   }
 }
 
@@ -178,10 +178,10 @@
 @media screen and (max-width: 1440px) {
   @keyframes marquee {
     0% {
-      transform: translateX(-60%);
+      transform: translateX(-25%);
     }
     100% {
-      transform: translateX(-228%);
+      transform: translateX(-160%);
     }
   }
   
@@ -193,10 +193,10 @@
 @media screen and (max-width: 1024px) {
   @keyframes marquee {
     0% {
-      transform: translateX(-60%);
+      transform: translateX(-24%);
     }
     100% {
-      transform: translateX(-337%);
+      transform: translateX(-237%);
     }
   }
   
@@ -208,10 +208,10 @@
 @media screen and (max-width: 648px) {
   @keyframes marquee {
     0% {
-      transform: translateX(-12%);
+      transform: translateX(-58%);
     }
     100% {
-      transform: translateX(-480%);
+      transform: translateX(-400%);
     }
   }
   

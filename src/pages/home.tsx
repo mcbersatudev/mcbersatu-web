@@ -92,7 +92,7 @@ const Home = () => {
                                 SAMPAI JUMPA DI VOLUME 3, 2025!    
                             </h4>
 
-                            <button className='minecraft-five text-[#ED1C24] text-center font-normal text-xl p-2 h-12 dp:w-[40%] lp:w-[70%] tb:w-[50%] mb:w-[80%] bg-white rounded-[30px] 
+                            <button className='minecraft-five text-[#ED1C24] text-center font-normal text-xl p-2 h-12 dp:w-[70%] lp:w-[70%] tb:w-[50%] mb:w-[80%] bg-white rounded-[30px] 
                                             mx-auto block hover:bg-transparent hover:border-white hover:border hover:text-white focus:opacity-40 
                                            mt-10 shrink transition-all duration-300' 
                                     onClick={handleClick}

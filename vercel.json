@@ -6,11 +6,5 @@
             "runtime": "vercel-php@0.6.2",
             "excludeFiles": "{vendor,node_modules,tests}/**"
         }
-    },
-    "outputDirectory": "public",
-    "builds": [
-        { "src": "api/index.php", "use": "@vercel/php" },
-        { "src": "package.json", "use": "@vercel/static-build", "config": { "distDir": "public" } }
-    ],
-    "routes": [{ "src": "/(.*)", "dest": "api/index.php" }]
+    }
 }

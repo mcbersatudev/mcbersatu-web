@@ -1,4 +1,4 @@
-import Countdown from '@/components/countdown';
+import { Countdown } from '@/components/countdown';
 import { Credits } from '@/components/credits';
 import { CtaBtn } from '@/components/cta-btn';
 import { Timeline } from '@/components/timeline-tab';

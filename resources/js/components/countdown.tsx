@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Separator } from './ui/separator';
 
 interface CountdownProps {
@@ -12,7 +12,7 @@ interface TimeLeft {
     seconds: number;
 }
 
-const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
+export function Countdown({ targetDate }: CountdownProps) {
     const calculateTimeLeft = (): TimeLeft => {
         const difference = +targetDate - +new Date();
         if (difference <= 0) {
@@ -37,21 +37,18 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
 
             if (newTime.days === 0 && newTime.hours === 0 && newTime.minutes === 0 && newTime.seconds === 0) {
                 showNotification();
-                // stop looping
-                return;
+                return; // stop looping
             }
 
             rafId.current = requestAnimationFrame(update);
         };
 
-        // mulai loop
         rafId.current = requestAnimationFrame(update);
 
         return () => {
-            // bersihkan bila unmount
             if (rafId.current) cancelAnimationFrame(rafId.current);
         };
-    }, [targetDate]);
+    }, [targetDate, calculateTimeLeft]);
 
     // minta izin notifikasi sekali saja
     useEffect(() => {
@@ -102,6 +99,4 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
             </div>
         </div>
     );
-};
-
-export default Countdown;
+}

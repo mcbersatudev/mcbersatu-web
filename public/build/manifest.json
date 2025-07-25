@@ -1,0 +1,308 @@
+{
+  "_app-layout-aeuHGjcW.js": {
+    "file": "assets/app-layout-aeuHGjcW.js",
+    "name": "app-layout",
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-DSt-vRGK.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/fonts/Droid_Sans/DroidSans-4Eg4.ttf": {
+    "file": "assets/DroidSans-4Eg4-DMmdV2DZ.ttf",
+    "src": "resources/fonts/Droid_Sans/DroidSans-4Eg4.ttf"
+  },
+  "resources/fonts/Droid_Sans/DroidSansBold-00dd.ttf": {
+    "file": "assets/DroidSansBold-00dd-DILhU4LU.ttf",
+    "src": "resources/fonts/Droid_Sans/DroidSansBold-00dd.ttf"
+  },
+  "resources/fonts/Droid_Sans/info.txt": {
+    "file": "assets/info-BAEdBDrH.txt",
+    "src": "resources/fonts/Droid_Sans/info.txt"
+  },
+  "resources/fonts/Lato/Lato-Black.ttf": {
+    "file": "assets/Lato-Black-BGKY3P7n.ttf",
+    "src": "resources/fonts/Lato/Lato-Black.ttf"
+  },
+  "resources/fonts/Lato/Lato-BlackItalic.ttf": {
+    "file": "assets/Lato-BlackItalic-Bn3AYdVg.ttf",
+    "src": "resources/fonts/Lato/Lato-BlackItalic.ttf"
+  },
+  "resources/fonts/Lato/Lato-Bold.ttf": {
+    "file": "assets/Lato-Bold-B5iD31kO.ttf",
+    "src": "resources/fonts/Lato/Lato-Bold.ttf"
+  },
+  "resources/fonts/Lato/Lato-BoldItalic.ttf": {
+    "file": "assets/Lato-BoldItalic-CT6m3OwA.ttf",
+    "src": "resources/fonts/Lato/Lato-BoldItalic.ttf"
+  },
+  "resources/fonts/Lato/Lato-Italic.ttf": {
+    "file": "assets/Lato-Italic-DOTKc3_v.ttf",
+    "src": "resources/fonts/Lato/Lato-Italic.ttf"
+  },
+  "resources/fonts/Lato/Lato-Light.ttf": {
+    "file": "assets/Lato-Light-hJCcuSzX.ttf",
+    "src": "resources/fonts/Lato/Lato-Light.ttf"
+  },
+  "resources/fonts/Lato/Lato-LightItalic.ttf": {
+    "file": "assets/Lato-LightItalic-DInKUxwu.ttf",
+    "src": "resources/fonts/Lato/Lato-LightItalic.ttf"
+  },
+  "resources/fonts/Lato/Lato-Regular.ttf": {
+    "file": "assets/Lato-Regular-BwLIet1C.ttf",
+    "src": "resources/fonts/Lato/Lato-Regular.ttf"
+  },
+  "resources/fonts/Lato/Lato-Thin.ttf": {
+    "file": "assets/Lato-Thin-BBFgnKgu.ttf",
+    "src": "resources/fonts/Lato/Lato-Thin.ttf"
+  },
+  "resources/fonts/Lato/Lato-ThinItalic.ttf": {
+    "file": "assets/Lato-ThinItalic-BKQInFEV.ttf",
+    "src": "resources/fonts/Lato/Lato-ThinItalic.ttf"
+  },
+  "resources/fonts/Lato/OFL.txt": {
+    "file": "assets/OFL-8vlFkIuU.txt",
+    "src": "resources/fonts/Lato/OFL.txt"
+  },
+  "resources/fonts/MinecraftFive_Bold/MinecraftFive-Bold.ttf": {
+    "file": "assets/MinecraftFive-Bold-BKvgVLyS.ttf",
+    "src": "resources/fonts/MinecraftFive_Bold/MinecraftFive-Bold.ttf"
+  },
+  "resources/fonts/Minercraftory/Minercraftory.ttf": {
+    "file": "assets/Minercraftory-CcMhloVn.ttf",
+    "src": "resources/fonts/Minercraftory/Minercraftory.ttf"
+  },
+  "resources/fonts/Open_Sans/OFL.txt": {
+    "file": "assets/OFL-BB-48EZm.txt",
+    "src": "resources/fonts/Open_Sans/OFL.txt"
+  },
+  "resources/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf": {
+    "file": "assets/OpenSans-Italic-VariableFont_wdth_wght-B4AZ-wl6.ttf",
+    "src": "resources/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf"
+  },
+  "resources/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf": {
+    "file": "assets/OpenSans-VariableFont_wdth_wght-BZBpG5Iz.ttf",
+    "src": "resources/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf"
+  },
+  "resources/fonts/Open_Sans/README.txt": {
+    "file": "assets/README-Dz7u9twT.txt",
+    "src": "resources/fonts/Open_Sans/README.txt"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans-Bold.ttf": {
+    "file": "assets/OpenSans-Bold-DGvYQtcs.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans-Bold.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans-BoldItalic.ttf": {
+    "file": "assets/OpenSans-BoldItalic-DDyywkPM.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans-BoldItalic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans-ExtraBold.ttf": {
+    "file": "assets/OpenSans-ExtraBold-JgqSG6ty.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans-ExtraBold.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans-ExtraBoldItalic.ttf": {
+    "file": "assets/OpenSans-ExtraBoldItalic-CgkFt7iY.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans-ExtraBoldItalic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans-Italic.ttf": {
+    "file": "assets/OpenSans-Italic-C_AuCsze.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans-Italic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans-Light.ttf": {
+    "file": "assets/OpenSans-Light-3sf3dutu.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans-Light.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans-LightItalic.ttf": {
+    "file": "assets/OpenSans-LightItalic-BiP5bj3Y.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans-LightItalic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans-Medium.ttf": {
+    "file": "assets/OpenSans-Medium-DVUZMR_6.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans-Medium.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans-MediumItalic.ttf": {
+    "file": "assets/OpenSans-MediumItalic-CRw63sbF.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans-MediumItalic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans-Regular.ttf": {
+    "file": "assets/OpenSans-Regular-DxJTClRG.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans-Regular.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans-SemiBold.ttf": {
+    "file": "assets/OpenSans-SemiBold-D3TTYgdB.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans-SemiBold.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans-SemiBoldItalic.ttf": {
+    "file": "assets/OpenSans-SemiBoldItalic-CDiedROf.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans-SemiBoldItalic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_Condensed-Bold.ttf": {
+    "file": "assets/OpenSans_Condensed-Bold-MmRJgi_9.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_Condensed-Bold.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_Condensed-BoldItalic.ttf": {
+    "file": "assets/OpenSans_Condensed-BoldItalic-Cne3n87J.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_Condensed-BoldItalic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_Condensed-ExtraBold.ttf": {
+    "file": "assets/OpenSans_Condensed-ExtraBold-J8rEaiCS.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_Condensed-ExtraBold.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_Condensed-ExtraBoldItalic.ttf": {
+    "file": "assets/OpenSans_Condensed-ExtraBoldItalic-BSvKzwPB.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_Condensed-ExtraBoldItalic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_Condensed-Italic.ttf": {
+    "file": "assets/OpenSans_Condensed-Italic-CgPZxgCK.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_Condensed-Italic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_Condensed-Light.ttf": {
+    "file": "assets/OpenSans_Condensed-Light-Mth1TfBL.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_Condensed-Light.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_Condensed-LightItalic.ttf": {
+    "file": "assets/OpenSans_Condensed-LightItalic-DyAPjVd5.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_Condensed-LightItalic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_Condensed-Medium.ttf": {
+    "file": "assets/OpenSans_Condensed-Medium-CG0Q_jvu.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_Condensed-Medium.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_Condensed-MediumItalic.ttf": {
+    "file": "assets/OpenSans_Condensed-MediumItalic-DV-VZMTH.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_Condensed-MediumItalic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_Condensed-Regular.ttf": {
+    "file": "assets/OpenSans_Condensed-Regular-DqbstT-4.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_Condensed-Regular.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_Condensed-SemiBold.ttf": {
+    "file": "assets/OpenSans_Condensed-SemiBold-B7cBo4MB.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_Condensed-SemiBold.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_Condensed-SemiBoldItalic.ttf": {
+    "file": "assets/OpenSans_Condensed-SemiBoldItalic-BLGGY2wF.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_Condensed-SemiBoldItalic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-Bold.ttf": {
+    "file": "assets/OpenSans_SemiCondensed-Bold-nTIgUeB2.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-Bold.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-BoldItalic.ttf": {
+    "file": "assets/OpenSans_SemiCondensed-BoldItalic-BMcTPjje.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-BoldItalic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-ExtraBold.ttf": {
+    "file": "assets/OpenSans_SemiCondensed-ExtraBold-K9zNsL85.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-ExtraBold.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-ExtraBoldItalic.ttf": {
+    "file": "assets/OpenSans_SemiCondensed-ExtraBoldItalic-CJbQB4ji.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-ExtraBoldItalic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-Italic.ttf": {
+    "file": "assets/OpenSans_SemiCondensed-Italic-BLF4sdTI.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-Italic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-Light.ttf": {
+    "file": "assets/OpenSans_SemiCondensed-Light-Cv61TcC5.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-Light.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-LightItalic.ttf": {
+    "file": "assets/OpenSans_SemiCondensed-LightItalic-CuG5Ms0u.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-LightItalic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-Medium.ttf": {
+    "file": "assets/OpenSans_SemiCondensed-Medium-CG-9TtNe.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-Medium.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-MediumItalic.ttf": {
+    "file": "assets/OpenSans_SemiCondensed-MediumItalic-xpxWD2PH.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-MediumItalic.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-Regular.ttf": {
+    "file": "assets/OpenSans_SemiCondensed-Regular-CR5kUNFv.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-Regular.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-SemiBold.ttf": {
+    "file": "assets/OpenSans_SemiCondensed-SemiBold-Dea4wxLS.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-SemiBold.ttf"
+  },
+  "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-SemiBoldItalic.ttf": {
+    "file": "assets/OpenSans_SemiCondensed-SemiBoldItalic-pqeW9mc0.ttf",
+    "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-SemiBoldItalic.ttf"
+  },
+  "resources/js/app.tsx": {
+    "file": "assets/app-Dn2R816W.js",
+    "name": "app",
+    "src": "resources/js/app.tsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/pages/about.tsx",
+      "resources/js/pages/guide.tsx",
+      "resources/js/pages/help.tsx",
+      "resources/js/pages/home.tsx"
+    ],
+    "css": [
+      "assets/app-DSt-vRGK.css"
+    ],
+    "assets": [
+      "assets/DroidSans-4Eg4-DMmdV2DZ.ttf",
+      "assets/Lato-Thin-BBFgnKgu.ttf",
+      "assets/Lato-Light-hJCcuSzX.ttf",
+      "assets/Lato-Regular-BwLIet1C.ttf",
+      "assets/Lato-Bold-B5iD31kO.ttf",
+      "assets/Lato-Black-BGKY3P7n.ttf",
+      "assets/MinecraftFive-Bold-BKvgVLyS.ttf",
+      "assets/Minercraftory-CcMhloVn.ttf",
+      "assets/OpenSans-Light-3sf3dutu.ttf",
+      "assets/OpenSans-Regular-DxJTClRG.ttf",
+      "assets/OpenSans-Medium-DVUZMR_6.ttf",
+      "assets/OpenSans-SemiBold-D3TTYgdB.ttf",
+      "assets/OpenSans-Bold-DGvYQtcs.ttf"
+    ]
+  },
+  "resources/js/pages/about.tsx": {
+    "file": "assets/about-MbbbB899.js",
+    "name": "about",
+    "src": "resources/js/pages/about.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_app-layout-aeuHGjcW.js"
+    ]
+  },
+  "resources/js/pages/guide.tsx": {
+    "file": "assets/guide-D5eqObdP.js",
+    "name": "guide",
+    "src": "resources/js/pages/guide.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_app-layout-aeuHGjcW.js"
+    ]
+  },
+  "resources/js/pages/help.tsx": {
+    "file": "assets/help-Beqa2UAq.js",
+    "name": "help",
+    "src": "resources/js/pages/help.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_app-layout-aeuHGjcW.js"
+    ]
+  },
+  "resources/js/pages/home.tsx": {
+    "file": "assets/home-39fod_a_.js",
+    "name": "home",
+    "src": "resources/js/pages/home.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_app-layout-aeuHGjcW.js"
+    ]
+  }
+}

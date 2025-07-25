@@ -4,7 +4,21 @@
     "functions": {
         "api/index.php": {
             "runtime": "vercel-php@0.6.2",
-            "excludeFiles": "{node_modules,public,vendor,tests}/**"
+            "excludeFiles": "{node_modules,vendor,tests,public/build/assets}/**"
         }
-    }
+    },
+    "routes": [
+        {
+            "src": "/build/(.*)",
+            "dest": "/public/build/$1"
+        },
+        {
+            "src": "/(.*)\\.(.+)$",
+            "dest": "/public/$1.$2"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
+    ]
 }

@@ -1,4 +1,4 @@
-[![mcbersatu](https://www.mcbersatu.com/images/mcb-logo.svg)](https://www.mcbersatu.com/)
+[![mcbersatu](https://www.mcbersatu.com/favicon.ico)](https://www.mcbersatu.com)
 
 # Minecrafter Bersatu Website
 

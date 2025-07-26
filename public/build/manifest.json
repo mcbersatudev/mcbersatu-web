@@ -1,13 +1,20 @@
 {
-  "_app-layout-aeuHGjcW.js": {
-    "file": "assets/app-layout-aeuHGjcW.js",
+  "_app-layout-DCGzyNFm.js": {
+    "file": "assets/app-layout-DCGzyNFm.js",
     "name": "app-layout",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
+  "_index-CA5w7xhq.js": {
+    "file": "assets/index-CA5w7xhq.js",
+    "name": "index",
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
   "resources/css/app.css": {
-    "file": "assets/app-DSt-vRGK.css",
+    "file": "assets/app-BryB1ZrL.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -20,7 +27,7 @@
     "src": "resources/fonts/Droid_Sans/DroidSansBold-00dd.ttf"
   },
   "resources/fonts/Droid_Sans/info.txt": {
-    "file": "assets/info-BAEdBDrH.txt",
+    "file": "assets/info-DD0sFIMv.txt",
     "src": "resources/fonts/Droid_Sans/info.txt"
   },
   "resources/fonts/Lato/Lato-Black.ttf": {
@@ -64,7 +71,7 @@
     "src": "resources/fonts/Lato/Lato-ThinItalic.ttf"
   },
   "resources/fonts/Lato/OFL.txt": {
-    "file": "assets/OFL-8vlFkIuU.txt",
+    "file": "assets/OFL-BjPHOHCo.txt",
     "src": "resources/fonts/Lato/OFL.txt"
   },
   "resources/fonts/MinecraftFive_Bold/MinecraftFive-Bold.ttf": {
@@ -76,7 +83,7 @@
     "src": "resources/fonts/Minercraftory/Minercraftory.ttf"
   },
   "resources/fonts/Open_Sans/OFL.txt": {
-    "file": "assets/OFL-BB-48EZm.txt",
+    "file": "assets/OFL-C4YDEQvG.txt",
     "src": "resources/fonts/Open_Sans/OFL.txt"
   },
   "resources/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf": {
@@ -88,7 +95,7 @@
     "src": "resources/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf"
   },
   "resources/fonts/Open_Sans/README.txt": {
-    "file": "assets/README-Dz7u9twT.txt",
+    "file": "assets/README-B_FrJGnU.txt",
     "src": "resources/fonts/Open_Sans/README.txt"
   },
   "resources/fonts/Open_Sans/static/OpenSans-Bold.ttf": {
@@ -236,7 +243,7 @@
     "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-SemiBoldItalic.ttf"
   },
   "resources/js/app.tsx": {
-    "file": "assets/app-Dn2R816W.js",
+    "file": "assets/app-ChLw6KHi.js",
     "name": "app",
     "src": "resources/js/app.tsx",
     "isEntry": true,
@@ -247,7 +254,7 @@
       "resources/js/pages/home.tsx"
     ],
     "css": [
-      "assets/app-DSt-vRGK.css"
+      "assets/app-BryB1ZrL.css"
     ],
     "assets": [
       "assets/DroidSans-4Eg4-DMmdV2DZ.ttf",
@@ -266,43 +273,45 @@
     ]
   },
   "resources/js/pages/about.tsx": {
-    "file": "assets/about-MbbbB899.js",
+    "file": "assets/about-CaWuGGtT.js",
     "name": "about",
     "src": "resources/js/pages/about.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_app-layout-aeuHGjcW.js"
+      "_app-layout-DCGzyNFm.js"
     ]
   },
   "resources/js/pages/guide.tsx": {
-    "file": "assets/guide-D5eqObdP.js",
+    "file": "assets/guide-1OQuCuh9.js",
     "name": "guide",
     "src": "resources/js/pages/guide.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_app-layout-aeuHGjcW.js"
+      "_app-layout-DCGzyNFm.js"
     ]
   },
   "resources/js/pages/help.tsx": {
-    "file": "assets/help-Beqa2UAq.js",
+    "file": "assets/help-DO2ylzRP.js",
     "name": "help",
     "src": "resources/js/pages/help.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_app-layout-aeuHGjcW.js"
+      "_app-layout-DCGzyNFm.js",
+      "_index-CA5w7xhq.js"
     ]
   },
   "resources/js/pages/home.tsx": {
-    "file": "assets/home-39fod_a_.js",
+    "file": "assets/home-BsiG6fzP.js",
     "name": "home",
     "src": "resources/js/pages/home.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_app-layout-aeuHGjcW.js"
+      "_app-layout-DCGzyNFm.js",
+      "_index-CA5w7xhq.js"
     ]
   }
 }

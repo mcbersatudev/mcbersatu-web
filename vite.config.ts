@@ -1,6 +1,6 @@
-import tailwindcss from "@tailwindcss/vite";
-import react from "@vitejs/plugin-react";
 import laravel from "laravel-vite-plugin";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
 import legacy from "@vitejs/plugin-legacy";
 import { resolve } from "node:path";
 import { defineConfig } from "vite";
@@ -15,10 +15,15 @@ export default defineConfig({
         react(),
         tailwindcss(),
         legacy({
-            targets: ["defaults", "not IE 11", "Android >= 5", "iOS >= 10"],
-            additionalLegacyPolyfills: ["regenerator-runtime/runtime"],
+            targets: ["defaults", "Android >= 5", "iOS >= 10"],
+            additionalLegacyPolyfills: [
+                "core-js/features/promise",
+                "core-js/features/array/iterator",
+                "core-js/features/object/assign",
+                "regenerator-runtime/runtime",
+            ],
             renderLegacyChunks: true,
-            modernPolyfills: false,
+            modernPolyfills: true,
         }),
     ],
     esbuild: {
@@ -29,5 +34,9 @@ export default defineConfig({
             "@": "/resources/js",
             "ziggy-js": resolve(__dirname, "vendor/tightenco/ziggy"),
         },
+    },
+    build: {
+        target: "es2015",
+        cssTarget: ["chrome61"],
     },
 });

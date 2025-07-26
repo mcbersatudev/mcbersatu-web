@@ -418,8 +418,14 @@
       "_index-DgiIbpuE.js"
     ]
   },
+  "vite/legacy-polyfills": {
+    "file": "assets/polyfills-BgvF_1fA.js",
+    "name": "polyfills",
+    "src": "vite/legacy-polyfills",
+    "isEntry": true
+  },
   "vite/legacy-polyfills-legacy": {
-    "file": "assets/polyfills-legacy-BOkj3D_6.js",
+    "file": "assets/polyfills-legacy-4FLFc82Y.js",
     "name": "polyfills",
     "src": "vite/legacy-polyfills-legacy",
     "isEntry": true

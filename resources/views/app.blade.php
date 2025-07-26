@@ -50,31 +50,6 @@
         <link rel="icon" href="/favicon.svg" type="image/svg+xml">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-        <script>
-            function isEmbeddedWebView() {
-            if (window.self !== window.top) return true;
-
-            const ua = navigator.userAgent || '';
-            const patterns = [
-                'Instagram', 'FBAN', 'FBAV',
-                'Twitter',
-                'Line',
-                'WhatsApp',
-                'Snapchat',
-                'TikTok',
-                'LinkedIn',
-            ];
-            for (const p of patterns) {
-                if (ua.includes(p)) return true;
-            }
-            return false;
-            }
-
-            if (isEmbeddedWebView()) {
-            document.documentElement.classList.add('legacy-only');
-            }
-        </script>
-
 
         @viteReactRefresh
         @vite(['resources/css/app.css', 'resources/js/app.tsx', "resources/js/pages/{$page['component']}.tsx"])

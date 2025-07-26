@@ -1,20 +1,55 @@
 {
-  "_app-layout-DCGzyNFm.js": {
-    "file": "assets/app-layout-DCGzyNFm.js",
+  "_app-layout-BOGkw77c.js": {
+    "file": "assets/app-layout-BOGkw77c.js",
     "name": "app-layout",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
-  "_index-CA5w7xhq.js": {
-    "file": "assets/index-CA5w7xhq.js",
+  "_app-layout-legacy-B-s6cpmO.js": {
+    "file": "assets/app-layout-legacy-B-s6cpmO.js",
+    "name": "app-layout",
+    "imports": [
+      "resources/js/app-legacy.tsx"
+    ]
+  },
+  "_index-CvWIor8X.js": {
+    "file": "assets/index-CvWIor8X.js",
     "name": "index",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
+  "_index-legacy-B_Ulta9M.js": {
+    "file": "assets/index-legacy-B_Ulta9M.js",
+    "name": "index",
+    "imports": [
+      "resources/js/app-legacy.tsx"
+    ]
+  },
+  "resources/css/app-legacy.css": {
+    "file": "assets/app-legacy-ChBTgpaY.js",
+    "name": "app",
+    "src": "resources/css/app-legacy.css",
+    "isEntry": true,
+    "assets": [
+      "assets/DroidSans-4Eg4-DMmdV2DZ.ttf",
+      "assets/Lato-Thin-BBFgnKgu.ttf",
+      "assets/Lato-Light-hJCcuSzX.ttf",
+      "assets/Lato-Regular-BwLIet1C.ttf",
+      "assets/Lato-Bold-B5iD31kO.ttf",
+      "assets/Lato-Black-BGKY3P7n.ttf",
+      "assets/MinecraftFive-Bold-BKvgVLyS.ttf",
+      "assets/Minercraftory-CcMhloVn.ttf",
+      "assets/OpenSans-Light-3sf3dutu.ttf",
+      "assets/OpenSans-Regular-DxJTClRG.ttf",
+      "assets/OpenSans-Medium-DVUZMR_6.ttf",
+      "assets/OpenSans-SemiBold-D3TTYgdB.ttf",
+      "assets/OpenSans-Bold-DGvYQtcs.ttf"
+    ]
+  },
   "resources/css/app.css": {
-    "file": "assets/app-BryB1ZrL.css",
+    "file": "assets/app-BfVu3jFj.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -242,19 +277,16 @@
     "file": "assets/OpenSans_SemiCondensed-SemiBoldItalic-pqeW9mc0.ttf",
     "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-SemiBoldItalic.ttf"
   },
-  "resources/js/app.tsx": {
-    "file": "assets/app-ChLw6KHi.js",
+  "resources/js/app-legacy.tsx": {
+    "file": "assets/app-legacy-CuujeA79.js",
     "name": "app",
-    "src": "resources/js/app.tsx",
+    "src": "resources/js/app-legacy.tsx",
     "isEntry": true,
     "dynamicImports": [
-      "resources/js/pages/about.tsx",
-      "resources/js/pages/guide.tsx",
-      "resources/js/pages/help.tsx",
-      "resources/js/pages/home.tsx"
-    ],
-    "css": [
-      "assets/app-BryB1ZrL.css"
+      "resources/js/pages/about-legacy.tsx",
+      "resources/js/pages/guide-legacy.tsx",
+      "resources/js/pages/help-legacy.tsx",
+      "resources/js/pages/home-legacy.tsx"
     ],
     "assets": [
       "assets/DroidSans-4Eg4-DMmdV2DZ.ttf",
@@ -272,46 +304,124 @@
       "assets/OpenSans-Bold-DGvYQtcs.ttf"
     ]
   },
+  "resources/js/app.tsx": {
+    "file": "assets/app-CJCDWYje.js",
+    "name": "app",
+    "src": "resources/js/app.tsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/pages/about.tsx",
+      "resources/js/pages/guide.tsx",
+      "resources/js/pages/help.tsx",
+      "resources/js/pages/home.tsx"
+    ],
+    "css": [
+      "assets/app-BfVu3jFj.css"
+    ],
+    "assets": [
+      "assets/DroidSans-4Eg4-DMmdV2DZ.ttf",
+      "assets/Lato-Thin-BBFgnKgu.ttf",
+      "assets/Lato-Light-hJCcuSzX.ttf",
+      "assets/Lato-Regular-BwLIet1C.ttf",
+      "assets/Lato-Bold-B5iD31kO.ttf",
+      "assets/Lato-Black-BGKY3P7n.ttf",
+      "assets/MinecraftFive-Bold-BKvgVLyS.ttf",
+      "assets/Minercraftory-CcMhloVn.ttf",
+      "assets/OpenSans-Light-3sf3dutu.ttf",
+      "assets/OpenSans-Regular-DxJTClRG.ttf",
+      "assets/OpenSans-Medium-DVUZMR_6.ttf",
+      "assets/OpenSans-SemiBold-D3TTYgdB.ttf",
+      "assets/OpenSans-Bold-DGvYQtcs.ttf"
+    ]
+  },
+  "resources/js/pages/about-legacy.tsx": {
+    "file": "assets/about-legacy-UJxBILPa.js",
+    "name": "about",
+    "src": "resources/js/pages/about-legacy.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app-legacy.tsx",
+      "_app-layout-legacy-B-s6cpmO.js"
+    ]
+  },
   "resources/js/pages/about.tsx": {
-    "file": "assets/about-CaWuGGtT.js",
+    "file": "assets/about-DlxjIE3X.js",
     "name": "about",
     "src": "resources/js/pages/about.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_app-layout-DCGzyNFm.js"
+      "_app-layout-BOGkw77c.js"
+    ]
+  },
+  "resources/js/pages/guide-legacy.tsx": {
+    "file": "assets/guide-legacy-z3zLVg5r.js",
+    "name": "guide",
+    "src": "resources/js/pages/guide-legacy.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app-legacy.tsx",
+      "_app-layout-legacy-B-s6cpmO.js"
     ]
   },
   "resources/js/pages/guide.tsx": {
-    "file": "assets/guide-1OQuCuh9.js",
+    "file": "assets/guide-BJu5YkPB.js",
     "name": "guide",
     "src": "resources/js/pages/guide.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_app-layout-DCGzyNFm.js"
+      "_app-layout-BOGkw77c.js"
+    ]
+  },
+  "resources/js/pages/help-legacy.tsx": {
+    "file": "assets/help-legacy-DbYErKgc.js",
+    "name": "help",
+    "src": "resources/js/pages/help-legacy.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app-legacy.tsx",
+      "_app-layout-legacy-B-s6cpmO.js",
+      "_index-legacy-B_Ulta9M.js"
     ]
   },
   "resources/js/pages/help.tsx": {
-    "file": "assets/help-DO2ylzRP.js",
+    "file": "assets/help-KA6cOaIF.js",
     "name": "help",
     "src": "resources/js/pages/help.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_app-layout-DCGzyNFm.js",
-      "_index-CA5w7xhq.js"
+      "_app-layout-BOGkw77c.js",
+      "_index-CvWIor8X.js"
+    ]
+  },
+  "resources/js/pages/home-legacy.tsx": {
+    "file": "assets/home-legacy-D3YN-y3T.js",
+    "name": "home",
+    "src": "resources/js/pages/home-legacy.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app-legacy.tsx",
+      "_app-layout-legacy-B-s6cpmO.js",
+      "_index-legacy-B_Ulta9M.js"
     ]
   },
   "resources/js/pages/home.tsx": {
-    "file": "assets/home-BsiG6fzP.js",
+    "file": "assets/home-D572UAcm.js",
     "name": "home",
     "src": "resources/js/pages/home.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_app-layout-DCGzyNFm.js",
-      "_index-CA5w7xhq.js"
+      "_app-layout-BOGkw77c.js",
+      "_index-CvWIor8X.js"
     ]
+  },
+  "vite/legacy-polyfills-legacy": {
+    "file": "assets/polyfills-legacy-BOkj3D_6.js",
+    "name": "polyfills",
+    "src": "vite/legacy-polyfills-legacy",
+    "isEntry": true
   }
 }

@@ -1,27 +1,27 @@
 {
-  "_app-layout-BOGkw77c.js": {
-    "file": "assets/app-layout-BOGkw77c.js",
+  "_app-layout-BSJiBMFf.js": {
+    "file": "assets/app-layout-BSJiBMFf.js",
     "name": "app-layout",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
-  "_app-layout-legacy-B-s6cpmO.js": {
-    "file": "assets/app-layout-legacy-B-s6cpmO.js",
+  "_app-layout-legacy-D3wM7wyL.js": {
+    "file": "assets/app-layout-legacy-D3wM7wyL.js",
     "name": "app-layout",
     "imports": [
       "resources/js/app-legacy.tsx"
     ]
   },
-  "_index-CvWIor8X.js": {
-    "file": "assets/index-CvWIor8X.js",
+  "_index-D8rQu6XN.js": {
+    "file": "assets/index-D8rQu6XN.js",
     "name": "index",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
-  "_index-legacy-B_Ulta9M.js": {
-    "file": "assets/index-legacy-B_Ulta9M.js",
+  "_index-legacy-WcrywIZ8.js": {
+    "file": "assets/index-legacy-WcrywIZ8.js",
     "name": "index",
     "imports": [
       "resources/js/app-legacy.tsx"
@@ -278,7 +278,7 @@
     "src": "resources/fonts/Open_Sans/static/OpenSans_SemiCondensed-SemiBoldItalic.ttf"
   },
   "resources/js/app-legacy.tsx": {
-    "file": "assets/app-legacy-CuujeA79.js",
+    "file": "assets/app-legacy-DRbQzcY5.js",
     "name": "app",
     "src": "resources/js/app-legacy.tsx",
     "isEntry": true,
@@ -305,7 +305,7 @@
     ]
   },
   "resources/js/app.tsx": {
-    "file": "assets/app-CJCDWYje.js",
+    "file": "assets/app-D0euMekd.js",
     "name": "app",
     "src": "resources/js/app.tsx",
     "isEntry": true,
@@ -335,87 +335,87 @@
     ]
   },
   "resources/js/pages/about-legacy.tsx": {
-    "file": "assets/about-legacy-UJxBILPa.js",
+    "file": "assets/about-legacy-C74dhcqT.js",
     "name": "about",
     "src": "resources/js/pages/about-legacy.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app-legacy.tsx",
-      "_app-layout-legacy-B-s6cpmO.js"
+      "_app-layout-legacy-D3wM7wyL.js"
     ]
   },
   "resources/js/pages/about.tsx": {
-    "file": "assets/about-DlxjIE3X.js",
+    "file": "assets/about-Cmxhzluc.js",
     "name": "about",
     "src": "resources/js/pages/about.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_app-layout-BOGkw77c.js"
+      "_app-layout-BSJiBMFf.js"
     ]
   },
   "resources/js/pages/guide-legacy.tsx": {
-    "file": "assets/guide-legacy-z3zLVg5r.js",
+    "file": "assets/guide-legacy-CXeZHrOV.js",
     "name": "guide",
     "src": "resources/js/pages/guide-legacy.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app-legacy.tsx",
-      "_app-layout-legacy-B-s6cpmO.js"
+      "_app-layout-legacy-D3wM7wyL.js"
     ]
   },
   "resources/js/pages/guide.tsx": {
-    "file": "assets/guide-BJu5YkPB.js",
+    "file": "assets/guide-C8vxlZxn.js",
     "name": "guide",
     "src": "resources/js/pages/guide.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_app-layout-BOGkw77c.js"
+      "_app-layout-BSJiBMFf.js"
     ]
   },
   "resources/js/pages/help-legacy.tsx": {
-    "file": "assets/help-legacy-DbYErKgc.js",
+    "file": "assets/help-legacy-BfxzJtOj.js",
     "name": "help",
     "src": "resources/js/pages/help-legacy.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app-legacy.tsx",
-      "_app-layout-legacy-B-s6cpmO.js",
-      "_index-legacy-B_Ulta9M.js"
+      "_app-layout-legacy-D3wM7wyL.js",
+      "_index-legacy-WcrywIZ8.js"
     ]
   },
   "resources/js/pages/help.tsx": {
-    "file": "assets/help-KA6cOaIF.js",
+    "file": "assets/help-Dby8OEJ3.js",
     "name": "help",
     "src": "resources/js/pages/help.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_app-layout-BOGkw77c.js",
-      "_index-CvWIor8X.js"
+      "_app-layout-BSJiBMFf.js",
+      "_index-D8rQu6XN.js"
     ]
   },
   "resources/js/pages/home-legacy.tsx": {
-    "file": "assets/home-legacy-D3YN-y3T.js",
+    "file": "assets/home-legacy-C005ZVJu.js",
     "name": "home",
     "src": "resources/js/pages/home-legacy.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app-legacy.tsx",
-      "_app-layout-legacy-B-s6cpmO.js",
-      "_index-legacy-B_Ulta9M.js"
+      "_app-layout-legacy-D3wM7wyL.js",
+      "_index-legacy-WcrywIZ8.js"
     ]
   },
   "resources/js/pages/home.tsx": {
-    "file": "assets/home-D572UAcm.js",
+    "file": "assets/home-5MBhu3lq.js",
     "name": "home",
     "src": "resources/js/pages/home.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_app-layout-BOGkw77c.js",
-      "_index-CvWIor8X.js"
+      "_app-layout-BSJiBMFf.js",
+      "_index-D8rQu6XN.js"
     ]
   },
   "vite/legacy-polyfills-legacy": {

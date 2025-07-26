@@ -38,6 +38,7 @@
         "@tailwindcss/vite": "^4.1.7",
         "@types/react": "^19.0.3",
         "@types/react-dom": "^19.0.2",
+        "@vercel/analytics": "^1.5.0",
         "@vitejs/plugin-legacy": "^6.1.1",
         "@vitejs/plugin-react": "^4.3.4",
         "class-variance-authority": "^0.7.1",

@@ -1,26 +1,36 @@
-import tailwindcss from '@tailwindcss/vite';
-import react from '@vitejs/plugin-react';
-import laravel from 'laravel-vite-plugin';
-import { resolve } from 'node:path';
-import { defineConfig } from 'vite';
+import tailwindcss from "@tailwindcss/vite";
+import react from "@vitejs/plugin-react";
+import legacy from "@vitejs/plugin-legacy";
+import laravel from "laravel-vite-plugin";
+import { resolve } from "node:path";
+import { defineConfig } from "vite";
 
 export default defineConfig({
     plugins: [
         laravel({
-            input: ['resources/css/app.css', 'resources/js/app.tsx'],
-            ssr: 'resources/js/ssr.tsx',
+            input: ["resources/css/app.css", "resources/js/app.tsx"],
+            ssr: "resources/js/ssr.tsx",
             refresh: true,
+        }),
+        legacy({
+            targets: ["defaults", "not IE 11"],
         }),
         react(),
         tailwindcss(),
     ],
+    build: {
+        target: "es2015",
+        cssTarget: "chrome61",
+        sourcemap: false,
+    },
     esbuild: {
-        jsx: 'automatic',
+        jsx: "automatic",
     },
     resolve: {
         alias: {
-            '@': '/resources/js',
-            'ziggy-js': resolve(__dirname, 'vendor/tightenco/ziggy'),
+            "@": "/resources/js",
+            "ziggy-js": resolve(__dirname, "vendor/tightenco/ziggy"),
         },
     },
+    base: "/",
 });

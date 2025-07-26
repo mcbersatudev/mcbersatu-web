@@ -106,12 +106,12 @@ export default function Home() {
                         style={{ transform: `translateY(${scrollY * -0.1}px)` }}
                     >
                         <div
-                            className="absolute -top-10 -right-30 h-80 w-[500px] bg-[url(../images/megamendung-a.svg)] bg-contain bg-center bg-no-repeat sm:right-20 lg:max-2xl:right-40"
-                            style={{ transform: `translateX(${scrollX * 0.5}px)` }}
+                            className="absolute -top-10 -right-30 h-80 w-[500px] bg-contain bg-center bg-no-repeat sm:right-20 lg:max-2xl:right-40"
+                            style={{ transform: `translateX(${scrollX * 0.5}px)`, backgroundImage: `url("../images/megamendung-a.svg")` }}
                         />
                         <div
-                            className="absolute -top-20 -left-50 h-80 w-[500px] bg-[url(../images/megamendung-b.svg)] bg-contain bg-center bg-no-repeat sm:left-10 lg:max-2xl:left-20"
-                            style={{ transform: `translateX(${scrollX * -0.3}px)` }}
+                            className="absolute -top-20 -left-50 h-80 w-[500px] bg-contain bg-center bg-no-repeat sm:left-10 lg:max-2xl:left-20"
+                            style={{ transform: `translateX(${scrollX * -0.3}px)`, backgroundImage: `url("../images/megamendung-b.svg")` }}
                         />
                     </div>
 
@@ -139,7 +139,7 @@ export default function Home() {
                                 </h3>
                                 <Timeline />
                             </div>
-                            <div className="absolute top-40 hidden h-80 w-[600px] bg-[url(../images/megamendung-d.svg)] bg-contain bg-center bg-no-repeat lg:-left-80 lg:max-2xl:block xl:max-2xl:-left-60" />
+                            <div className="absolute top-40 hidden h-80 w-[600px] bg-contain bg-center bg-no-repeat lg:-left-80 lg:max-2xl:block xl:max-2xl:-left-60" style={{ backgroundImage: `url("../images/megamendung-d.svg")` }} />
                         </section>
 
                         {/* Section 4 */}

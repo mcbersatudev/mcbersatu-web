@@ -1,4 +1,4 @@
-[![mcbersatu](https://cdn.mcbersatu.com/logo.svg)](https://www.mcbersatu.com/)
+[![mcbersatu](https://www.mcbersatu.com/images/mcb-logo.svg)](https://www.mcbersatu.com/)
 
 # Minecrafter Bersatu Website
 
@@ -8,34 +8,34 @@ This repository contains the source code for the official website of Minecrafter
 
 This project is a modern web application built with a powerful and efficient stack:
 
-- **Backend**: [Laravel 12](https://laravel.com/)
-- **Frontend**: [React](https://react.dev/) (with TypeScript)
-- **Framework**: [Inertia.js](https://inertiajs.com/)
-- **Build Tool**: [Vite](https://vitejs.dev/)
-- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
-- **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
-- **Deployment**: [Vercel](https://vercel.com/) (configured for serverless PHP)
+-   **Backend**: [Laravel 12](https://laravel.com/)
+-   **Frontend**: [React](https://react.dev/) (with TypeScript)
+-   **Framework**: [Inertia.js](https://inertiajs.com/)
+-   **Build Tool**: [Vite](https://vitejs.dev/)
+-   **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+-   **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
+-   **Deployment**: [Vercel](https://vercel.com/) (configured for serverless PHP)
 
 ## Features
 
-- **Dynamic Content**: The home page features a video banner that changes based on the event's progress (pre-event teaser vs. main event video).
-- **Live Countdown**: A real-time countdown timer builds anticipation for the main event date.
-- **Event Timeline**: A tabbed, responsive timeline details the schedule for each event day.
-- **Context-Aware CTAs**: The primary call-to-action button dynamically changes its function and text based on the current date (e.g., "Mark Calendar", "Register Now", "Watch Live").
-- **FAQ Section**: An accordion-style FAQ section to answer common questions about the event.
-- **Sponsors & Partners**: A dedicated section to showcase sponsors, community partners, and media partners.
-- **Responsive Design**: The site is fully responsive, with dedicated mobile experiences like a drawer for CTAs on smaller screens.
+-   **Dynamic Content**: The home page features a video banner that changes based on the event's progress (pre-event teaser vs. main event video).
+-   **Live Countdown**: A real-time countdown timer builds anticipation for the main event date.
+-   **Event Timeline**: A tabbed, responsive timeline details the schedule for each event day.
+-   **Context-Aware CTAs**: The primary call-to-action button dynamically changes its function and text based on the current date (e.g., "Mark Calendar", "Register Now", "Watch Live").
+-   **FAQ Section**: An accordion-style FAQ section to answer common questions about the event.
+-   **Sponsors & Partners**: A dedicated section to showcase sponsors, community partners, and media partners.
+-   **Responsive Design**: The site is fully responsive, with dedicated mobile experiences like a drawer for CTAs on smaller screens.
 
 ## Project Structure
 
 The repository follows a standard Laravel project structure, with the frontend source code primarily located in the `resources/js` directory.
 
-- `resources/js/pages/`: Contains the main page components for Inertia.js (`home.tsx`, `about.tsx`, etc.).
-- `resources/js/components/`: Houses reusable React components, including UI elements from shadcn/ui and custom components like `countdown.tsx` and `timeline-tab.tsx`.
-- `resources/js/data/`: Stores static configuration and text content for the frontend, such as event dates, timeline details, and page copy.
-- `routes/web.php`: Defines the web routes that render the Inertia pages.
-- `config/`: Standard Laravel application configuration files.
-- `vercel.json`: Configuration for deploying the application on Vercel.
+-   `resources/js/pages/`: Contains the main page components for Inertia.js (`home.tsx`, `about.tsx`, etc.).
+-   `resources/js/components/`: Houses reusable React components, including UI elements from shadcn/ui and custom components like `countdown.tsx` and `timeline-tab.tsx`.
+-   `resources/js/data/`: Stores static configuration and text content for the frontend, such as event dates, timeline details, and page copy.
+-   `routes/web.php`: Defines the web routes that render the Inertia pages.
+-   `config/`: Standard Laravel application configuration files.
+-   `vercel.json`: Configuration for deploying the application on Vercel.
 
 ## Local Development
 

@@ -6,24 +6,30 @@ import { createInertiaApp } from "@inertiajs/react";
 import { resolvePageComponent } from "laravel-vite-plugin/inertia-helpers";
 import { createRoot } from "react-dom/client";
 
-Object.defineProperty(document, "visibilityState", {
-    get: () => "visible",
-});
+const isEmbedded = document.documentElement.classList.contains("legacy-only");
 
-createInertiaApp({
-    title: (title) => `${title}`,
-    resolve: (name) =>
-        resolvePageComponent(
-            `./pages/${name}.tsx`,
-            import.meta.glob("./pages/**/*.tsx")
-        ),
-    setup({ el, App, props }) {
-        const root = createRoot(el);
-        root.render(<App {...props} />);
-    },
-    progress: {
-        color: "#F0F0F0",
-    },
-});
-
-inject();
+if (!isEmbedded) {
+    createInertiaApp({
+        title: (title) => `${title}`,
+        resolve: (name) =>
+            resolvePageComponent(
+                `./pages/${name}.tsx`,
+                import.meta.glob("./pages/**/*.tsx")
+            ),
+        setup({ el, App, props }) {
+            const root = createRoot(el);
+            root.render(<App {...props} />);
+        },
+        progress: {
+            color: "#F0F0F0",
+        },
+    });
+    inject();
+} else {
+    const el = document.getElementById("app");
+    if (el) {
+        el.innerHTML = `
+        <App {...props} />
+    `;
+    }
+}

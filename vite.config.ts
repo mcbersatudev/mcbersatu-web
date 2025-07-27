@@ -23,7 +23,7 @@ export default defineConfig({
                 "regenerator-runtime/runtime",
             ],
             renderLegacyChunks: true,
-            modernPolyfills: true,
+            renderModernChunks: false,
         }),
     ],
     esbuild: {

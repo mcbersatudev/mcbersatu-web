@@ -1,18 +1,14 @@
 {
     "version": 2,
-    "framework": null,
-    "cleanUrls": true,
-    "functions": {
-        "api/index.php": {
-            "runtime": "vercel-php@0.6.2",
-            "excludeFiles": "{node_modules,tests}/**"
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@vercel/static-build",
+            "config": { "distDir": "public" }
         }
-    },
-    "rewrites": [
-        { "source": "/build/(.*)", "destination": "/public/build/$1" },
-        { "source": "/(.*)\\.(.+)$", "destination": "/public/$1.$2" },
-        { "source": "/(.*)", "destination": "/api/index.php" }
     ],
+    "cleanUrls": true,
+    "trailingSlash": false,
     "headers": [
         {
             "source": "/(.*)",

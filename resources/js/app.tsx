@@ -8,7 +8,7 @@ import { createRoot } from "react-dom/client";
 
 const isEmbedded = document.documentElement.classList.contains("legacy-only");
 
-function defaultApp() {
+if (!isEmbedded) {
     createInertiaApp({
         title: (title) => `${title}`,
         resolve: (name) =>
@@ -25,10 +25,15 @@ function defaultApp() {
         },
     });
     inject();
-}
-
-if (isEmbedded) {
-    defaultApp();
 } else {
-    defaultApp();
+    const el = document.getElementById("app");
+    if (el) {
+        el.innerHTML = `
+      <div style="font-family:sans-serif; padding:2rem; text-align:center;">
+        <h1>Loading…</h1>
+        <p>Your browser does not support our full application.<br/>
+           Please open this link in your device’s default browser.</p>
+      </div>
+    `;
+    }
 }

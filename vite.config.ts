@@ -22,7 +22,8 @@ export default defineConfig({
                 "core-js/features/object/assign",
                 "regenerator-runtime/runtime",
             ],
-            renderModernChunks: false,
+            renderLegacyChunks: true,
+            modernPolyfills: true,
         }),
     ],
     esbuild: {

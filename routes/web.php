@@ -18,3 +18,7 @@ Route::get('/guide', function () {
 Route::get('/help', function () {
     return Inertia::render('help');
 })->name('help');
+
+Route::fallback(function () {
+    return redirect()->route('home');
+});

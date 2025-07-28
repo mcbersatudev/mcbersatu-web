@@ -1,26 +1,16 @@
 {
     "version": 2,
-    "framework": null,
-    "functions": {
-        "api/index.php": {
-            "runtime": "vercel-php@0.6.2",
-            "excludeFiles": "{node_modules,tests}/**"
-        }
-    },
-    "rewrites": [
-        { "source": "/build/(.*)", "destination": "/public/build/$1" },
-        { "source": "/(.*)\\.(.+)$", "destination": "/public/$1.$2" },
-        { "source": "/(.*)", "destination": "/api/index.php" }
-    ],
-    "headers": [
+    "builds": [
         {
-            "source": "/(.*)",
-            "headers": [
-                {
-                    "key": "Content-Security-Policy",
-                    "value": "frame-ancestors 'self' https://www.instagram.com https://*.whatsapp.com https://vercel.app"
-                }
-            ]
+            "src": "package.json",
+            "use": "@vercel/static-build",
+            "config": { "distDir": "public" }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/$1"
         }
     ]
 }

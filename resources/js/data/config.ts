@@ -1,6 +1,6 @@
 // SETUP COUNTDOWN TIME /////////////////////////////////////////////////////////////////////////////////////////////
 
-export const TARGET_DATE = new Date("2025-08-24T12:30:00"); //ubah tanggal
+export const TARGET_DATE = new Date("2025-08-31T12:30:00"); //ubah tanggal
 //
 
 // SETUP CTA ////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -254,11 +254,11 @@ export const creditsConfig: CreditInfo[] = [
                 image: "https://gg6oykpzrfkxfwru.public.blob.vercel-storage.com/images/logo/mitra/2025/yuemi.svg",
                 url: "https://dsc.gg/yuemi",
             },
-            {
-                name: "",
-                image: "",
-                url: "",
-            },
+            // {
+            //     name: "",
+            //     image: "",
+            //     url: "",
+            // },
         ],
     },
     {

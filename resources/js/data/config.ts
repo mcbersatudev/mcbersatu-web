@@ -211,7 +211,7 @@ export const creditsConfig: CreditInfo[] = [
             },
             {
                 name: "Chronoscraft",
-                image: "https://cdn.discordapp.com/attachments/1400811580383297546/1400822918530990231/chronoscraft.png?ex=688e0981&is=688cb801&hm=66d0eb65e29489571a78f6ac2ba4fbc4b9f00cda4da6ec845981e23c38dcbfb4&",
+                image: "https://cdn.discordapp.com/attachments/1400811580383297546/1400830453425897595/chronoscraft.png?ex=688e1086&is=688cbf06&hm=73bc81a03015c57278044c88580b9c3c3df80ff8acf0846bdf628bfa4e855216&",
                 url: "https://chat.whatsapp.com/HLHWgwpmDAnCnJmIwWIq4a?mode=r_t",
             },
             {

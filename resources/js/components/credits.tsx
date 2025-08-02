@@ -129,7 +129,7 @@ export function Credits() {
 
             {/* Dynamic Partners Section */}
             <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-20 flex-col md:max-2xl:flex-row md:max-2xl:justify-around">
-                {available.map((sec, idx) => (
+                {available.map((sec) => (
                     <div
                         key={sec.key}
                         className="font-lato flex w-full flex-col items-center gap-10 md:w-auto"

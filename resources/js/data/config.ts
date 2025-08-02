@@ -47,8 +47,8 @@ export const VIDEO_SWITCH_DATE = FORM_DATE;
 
 export const VIDEO_BANNER =
     new Date() >= VIDEO_SWITCH_DATE
-        ? "/videos/mcb.mp4"
-        : "/videos/teaser-2025.mp4"; // ubah file video banner
+        ? "https://cdn.discordapp.com/attachments/1400811660540772373/1400979976001425448/mcb.mp4?ex=688e9bc7&is=688d4a47&hm=d3a89509753d4d530d4736d565b581c0e2e20dc0bb590871c2721fb5ace3cbfa&"
+        : "https://cdn.discordapp.com/attachments/1400811660540772373/1400980080427270358/teaser-2025.mp4?ex=688e9be0&is=688d4a60&hm=a41e74647271695ddf1d5eee7f08606f44aa607eb52ae5040b366aedb725190f&"; // ubah file video banner
 
 export const HUTRI_LOGO =
     "https://cdn.discordapp.com/attachments/1400811580383297546/1400822304983748668/hut80ri.png?ex=688e08ef&is=688cb76f&hm=57440615ae1daf7f5ea18baa985217f6c2592dfc286cb03bd64f1bf38e03543b&"; // ubah file logo hut ri

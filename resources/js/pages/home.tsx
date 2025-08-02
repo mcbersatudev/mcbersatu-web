@@ -201,7 +201,7 @@ export default function Home() {
 
                         {/* Section 5 */}
 
-                        <section className="my-14 h-auto px-[5%]">
+                        <section className="my-14 h-auto">
                             <Credits />
                         </section>
                     </>

@@ -89,7 +89,7 @@ export function Credits() {
         <div className="my-10 flex w-full flex-col gap-20">
             {/* Sponsor */}
             {sponsor.plots.some((plot) => plot.name) && (
-                <div className="font-lato flex w-full flex-col items-center gap-10">
+                <div className="font-lato flex w-full flex-col items-center gap-10 px-[5%]">
                     <h5 className="text-center text-xl font-bold">
                         {sponsor.title}
                     </h5>
@@ -128,7 +128,7 @@ export function Credits() {
             )}
 
             {/* Dynamic Partners Section */}
-            <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-20 flex-col md:max-2xl:flex-row md:max-2xl:justify-around">
+            <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-20 flex-col md:max-2xl:flex-row md:max-2xl:justify-around px-[5%]">
                 {available.map((sec) => (
                     <div
                         key={sec.key}

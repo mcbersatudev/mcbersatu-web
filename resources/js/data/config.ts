@@ -178,7 +178,7 @@ export const creditsConfig: CreditInfo[] = [
             {
                 name: "MKShopMC",
                 image: "https://images.ctfassets.net/yucmpusk2vdh/50SnFDoYxjfOdsBzd8qlxL/0595ff6018a50493b7dcdb4c7cb23a9a/mkshopmc.png",
-                url: "https://www.instagram.com/@mkshopmc_",
+                url: "https://www.instagram.com/mkshopmc_",
             },
             // {
             //     name: "",

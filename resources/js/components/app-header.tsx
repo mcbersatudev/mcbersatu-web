@@ -1,6 +1,6 @@
-import { Link } from '@inertiajs/react';
-import { useEffect, useState } from 'react';
-import { Button } from './ui/button';
+import { Link } from "@inertiajs/react";
+import { useEffect, useState } from "react";
+import { Button } from "./ui/button";
 
 export default function AppHeader() {
     //fungsi open menu
@@ -22,21 +22,29 @@ export default function AppHeader() {
     };
 
     useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
+        window.addEventListener("scroll", handleScroll);
         return () => {
-            window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener("scroll", handleScroll);
         };
     }, []);
 
     return (
         <header>
-            <div className={`fixed top-0 z-50 w-full transition-all duration-300 select-none ${scrolled ? 'backdrop-blur-3xl' : ''}`}>
+            <div
+                className={`fixed top-0 z-50 w-full transition-all duration-300 select-none ${
+                    scrolled ? "backdrop-blur-3xl" : ""
+                }`}
+            >
                 <div className="mx-auto my-2 h-12 w-[90%] content-center min-[1440px]:px-14 lg:w-[80%]">
                     <div className="flex items-center justify-between md:max-2xl:justify-center">
                         {/* MCB Logo */}
                         <div className="font-minecraftfive flex justify-start text-base tracking-wide text-[#101010] transition hover:text-[#BC2626] focus:text-[#BC2626] md:max-2xl:hidden">
                             <Link href="/">
-                                <img src="../images/mcb-logo.svg" alt="MCB" className="h-10 w-auto" />
+                                <img
+                                    src="../images/mcb-logo.svg"
+                                    alt="MCB"
+                                    className="h-10 w-auto"
+                                />
                             </Link>
                         </div>
 
@@ -74,7 +82,7 @@ export default function AppHeader() {
                                 onClick={toggleMenu}
                                 className="font-minecraftfive h-auto cursor-pointer rounded-none bg-transparent text-base tracking-wide text-[#101010] shadow-none transition hover:bg-transparent hover:text-[#BC2626] focus:text-[#101010] active:text-slate-400"
                             >
-                                {isOpen ? 'Tutup' : 'Menu'}
+                                {isOpen ? "Tutup" : "Menu"}
                             </Button>
                         </div>
                     </div>
@@ -84,12 +92,14 @@ export default function AppHeader() {
             {/* Mobile nav */}
             <div
                 className={`fixed inset-0 z-40 block h-screen w-full bg-[#F0F0F0] transition-all duration-700 ease-in-out md:max-2xl:hidden ${
-                    isOpen ? '-translate-y-0' : '-translate-y-200 opacity-0 delay-500'
+                    isOpen
+                        ? "-translate-y-0"
+                        : "-translate-y-200 opacity-0 delay-500"
                 }`}
             >
                 <div
-                    className={`mx-auto flex h-screen w-full flex-col justify-center gap-y-20 rounded-xl p-6 transition-opacity duration-700 ease-in-out sm:justify-start ${
-                        isOpen ? 'opacity-100 delay-700' : 'opacity-0'
+                    className={`mx-auto flex h-screen w-full flex-col justify-center gap-y-20 p-6 transition-opacity duration-700 ease-in-out sm:justify-start ${
+                        isOpen ? "opacity-100 delay-700" : "opacity-0"
                     }`}
                 >
                     <nav className="font-lato min-xs:gap-[3vh] min-xs:pt-[20vh] min-xs:text-2xl mx-auto my-auto flex w-[95%] flex-col gap-10 pt-0 text-left text-4xl md:my-40">

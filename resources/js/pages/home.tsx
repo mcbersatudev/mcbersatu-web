@@ -82,11 +82,11 @@ export default function Home() {
                     >
                         <div className="flex w-full items-center justify-center">
                             <h1 className="font-minercraftory text-center text-5xl font-normal text-[#BC2626] max-[360px]:text-4xl min-[2160px]:text-[100px] lg:text-6xl [1440px]:text-8xl">
-                                #MCB<span className="text-[#101010]">2025</span>
+                                <span className="text-[#101010]">TAMAT</span>
                             </h1>
                         </div>
 
-                        <div className="relative flex w-full flex-col items-start justify-between gap-10 px-[5%] xl:max-2xl:flex-row xl:max-2xl:items-center">
+                        {/* <div className="relative flex w-full flex-col items-start justify-between gap-10 px-[5%] xl:max-2xl:flex-row xl:max-2xl:items-center">
                             <div className="flex flex-2/5 items-center gap-3">
                                 <img
                                     src="../images/mcb-logo.svg"
@@ -110,13 +110,13 @@ export default function Home() {
                                     className="mx-auto my-3 mt-3 h-10 w-[50%] cursor-pointer bg-[#101010] sm:max-2xl:mx-0 sm:max-2xl:my-0 sm:max-2xl:-mt-5 sm:max-2xl:ml-[70%] sm:max-2xl:w-[30%]"
                                 />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
 
                 {/* Section 2 */}
 
-                <section ref={sectionRef} className="my-20 h-auto pt-20">
+                {/* <section ref={sectionRef} className="my-20 h-auto pt-20">
                     <div
                         className="relative -top-15 z-20 w-full max-[360px]:-top-20 sm:-top-20 lg:max-2xl:-top-20"
                         style={{ transform: `translateY(${scrollY * -0.1}px)` }}
@@ -154,10 +154,10 @@ export default function Home() {
                 </section>
 
                 {showSections && (
-                    <>
+                    <> */}
                         {/* Section 3 */}
 
-                        <section className="relative my-14 h-auto md:h-[600px] lg:max-2xl:h-[500px]">
+                        {/* <section className="relative my-14 h-auto md:h-[600px] lg:max-2xl:h-[500px]">
                             <div className="flex flex-col gap-5 px-[5%] md:max-2xl:gap-10 lg:max-2xl:flex-row">
                                 <h3 className="font-lato mx-auto w-full px-0 text-left text-3xl font-black text-balance md:w-[70%] lg:w-[20%] lg:max-2xl:px-[5%] xl:max-2xl:w-[30%]">
                                     Linimasa dan Susunan Acara
@@ -170,11 +170,11 @@ export default function Home() {
                                     backgroundImage: `url("../images/megamendung-d.svg")`,
                                 }}
                             />
-                        </section>
+                        </section> */}
 
                         {/* Section 4 */}
 
-                        <section className="my-14 h-auto px-[5%]">
+                        {/* <section className="my-14 h-auto px-[5%]">
                             <div className="flex h-auto min-h-[300px] flex-col items-center justify-center gap-8 border-5 border-t-[#D0D0D0] border-r-[#D0D0D0] border-b-[#FFFFFF] border-l-[#FFFFFF] bg-[#D9D9D9]/70 px-5 py-10 md:px-10">
                                 <h3 className="font-lato text-center text-3xl font-black">
                                     Rayakan Hari Kemerdekaan Bersama
@@ -197,19 +197,19 @@ export default function Home() {
                                     </Link>
                                 </div>
                             </div>
-                        </section>
+                        </section> */}
 
                         {/* Section 5 */}
 
-                        <section className="my-14 h-auto">
+                        {/* <section className="my-14 h-auto">
                             <Credits />
                         </section>
                     </>
-                )}
+                )} */}
 
                 {/* Section 6 */}
 
-                <section ref={lastSectionRef} className="my-14 h-auto px-[5%]">
+                {/* <section ref={lastSectionRef} className="my-14 h-auto px-[5%]">
                     <div className="font-lato h-full w-full">
                         <h3 className="ml-0 text-3xl font-black sm:ml-5 md:max-2xl:ml-16">
                             Arsip
@@ -245,15 +245,15 @@ export default function Home() {
                             </a>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </div>
 
             {/* CTA Mobile Drawer */}
-            {!hideDrawer && (
+            /* {!hideDrawer && (
                 <Drawer open={showDrawer} preventScrollRestoration>
                     <CtaBtn mode="drawer" className="h-12" />
                 </Drawer>
-            )}
+            )} */
         </AppLayout>
     );
 }
